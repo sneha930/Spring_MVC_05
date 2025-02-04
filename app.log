@@ -259,3 +259,39 @@
 2025-02-04T15:02:22.302+05:30  INFO 8872 --- [SpringMvcProject] [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 2.755 seconds (process running for 3.478)
 2025-02-04T15:05:38.787+05:30  INFO 8872 --- [SpringMvcProject] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-02-04T15:05:38.954+05:30  INFO 8872 --- [SpringMvcProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-04T15:05:44.010+05:30  INFO 8200 --- [SpringMvcProject] [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 17.0.10 with PID 8200 (E:\Java\Springboot\Spring-boot-durgesh\05_spring_mvc\SpringMvcProject\SpringMvcProject\target\classes started by sneha in E:\Java\Springboot\Spring-boot-durgesh\05_spring_mvc\SpringMvcProject\SpringMvcProject)
+2025-02-04T15:05:44.013+05:30 DEBUG 8200 --- [SpringMvcProject] [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-04T15:05:44.015+05:30  INFO 8200 --- [SpringMvcProject] [restartedMain] c.l.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-04T15:05:44.092+05:30  INFO 8200 --- [SpringMvcProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-04T15:05:44.093+05:30  INFO 8200 --- [SpringMvcProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-04T15:05:45.500+05:30  INFO 8200 --- [SpringMvcProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-04T15:05:45.515+05:30  INFO 8200 --- [SpringMvcProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-04T15:05:45.516+05:30  INFO 8200 --- [SpringMvcProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-04T15:05:45.562+05:30  INFO 8200 --- [SpringMvcProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-04T15:05:45.563+05:30  INFO 8200 --- [SpringMvcProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1468 ms
+2025-02-04T15:05:46.189+05:30  INFO 8200 --- [SpringMvcProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-04T15:05:46.252+05:30  INFO 8200 --- [SpringMvcProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-04T15:05:46.268+05:30  INFO 8200 --- [SpringMvcProject] [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 2.962 seconds (process running for 3.59)
+2025-02-04T15:06:26.384+05:30  INFO 8200 --- [SpringMvcProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-04T15:06:26.385+05:30  INFO 8200 --- [SpringMvcProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-04T15:06:26.387+05:30  INFO 8200 --- [SpringMvcProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-04T15:24:42.316+05:30  INFO 8200 --- [SpringMvcProject] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-04T15:24:42.505+05:30  INFO 8200 --- [SpringMvcProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-04T15:24:47.762+05:30  INFO 11012 --- [SpringMvcProject] [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 17.0.10 with PID 11012 (E:\Java\Springboot\Spring-boot-durgesh\05_spring_mvc\SpringMvcProject\SpringMvcProject\target\classes started by sneha in E:\Java\Springboot\Spring-boot-durgesh\05_spring_mvc\SpringMvcProject\SpringMvcProject)
+2025-02-04T15:24:47.765+05:30 DEBUG 11012 --- [SpringMvcProject] [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-04T15:24:47.767+05:30  INFO 11012 --- [SpringMvcProject] [restartedMain] c.l.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-04T15:24:47.847+05:30  INFO 11012 --- [SpringMvcProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-04T15:24:47.848+05:30  INFO 11012 --- [SpringMvcProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-04T15:24:49.107+05:30  INFO 11012 --- [SpringMvcProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-04T15:24:49.123+05:30  INFO 11012 --- [SpringMvcProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-04T15:24:49.124+05:30  INFO 11012 --- [SpringMvcProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-04T15:24:49.176+05:30  INFO 11012 --- [SpringMvcProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-04T15:24:49.177+05:30  INFO 11012 --- [SpringMvcProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1328 ms
+2025-02-04T15:24:49.672+05:30  INFO 11012 --- [SpringMvcProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-04T15:24:49.712+05:30  INFO 11012 --- [SpringMvcProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-04T15:24:49.724+05:30  INFO 11012 --- [SpringMvcProject] [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 2.6 seconds (process running for 3.38)
+2025-02-04T15:25:02.649+05:30  INFO 11012 --- [SpringMvcProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-04T15:25:02.650+05:30  INFO 11012 --- [SpringMvcProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-04T15:25:02.651+05:30  INFO 11012 --- [SpringMvcProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-04T15:41:51.312+05:30  INFO 11012 --- [SpringMvcProject] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-04T15:41:51.500+05:30  INFO 11012 --- [SpringMvcProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
