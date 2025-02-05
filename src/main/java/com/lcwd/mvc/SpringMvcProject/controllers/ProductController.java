@@ -1,9 +1,13 @@
 package com.lcwd.mvc.SpringMvcProject.controllers;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class ProductController {
+
+    Logger logger = LoggerFactory.getLogger(ProductController.class);
 
     @GetMapping("/getProduct")
     public String getProduct(@RequestParam("productName") String name, @RequestParam(value = "productRating", defaultValue = "0", required = false) int rating, @RequestParam("productId") int id) {
@@ -20,9 +24,13 @@ public class ProductController {
             @PathVariable String productName,
             @PathVariable int productRating
     ) {
-        System.out.println("Product Name" + productName);
-        System.out.println("Product Id" + id);
-        System.out.println("Product rating" + productRating);
+//        System.out.println("Product Name" + productName);
+//        System.out.println("Product Id" + id);
+//        System.out.println("Product rating" + productRating);
+
+        logger.error("Product Name {} {}", productName, "testing");
+        logger.warn("ProductId {}" , id);
+        logger.info("Product rating {}", productRating);
         return "this is checking the concept of path variable";
     }
 }
